@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Maze-Game", "1.Maze-Game\1.Maze-Game.csproj", "{D45B720F-25D4-4C73-A8B9-0B55D93D0FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Neural-Network", "2.Neural-Network\2.Neural-Network.csproj", "{CA24BAA0-A9C2-4CB0-BC9B-094EE2EC6002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ML.NET-House-Pricing", "3.ML.NET-House-Pricing\3.ML.NET-House-Pricing.csproj", "{7302C254-0039-4395-9822-44F18AC806E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\housing-data.csv = Resources\housing-data.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ML.NET-Feature-Engineering", "4.ML.NET-Feature-Engineering\4.ML.NET-Feature-Engineering.csproj", "{91412FC9-FA8E-47A6-A6C1-96769A02DC30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45B720F-25D4-4C73-A8B9-0B55D93D0FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45B720F-25D4-4C73-A8B9-0B55D93D0FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45B720F-25D4-4C73-A8B9-0B55D93D0FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45B720F-25D4-4C73-A8B9-0B55D93D0FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA24BAA0-A9C2-4CB0-BC9B-094EE2EC6002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA24BAA0-A9C2-4CB0-BC9B-094EE2EC6002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA24BAA0-A9C2-4CB0-BC9B-094EE2EC6002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA24BAA0-A9C2-4CB0-BC9B-094EE2EC6002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7302C254-0039-4395-9822-44F18AC806E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7302C254-0039-4395-9822-44F18AC806E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7302C254-0039-4395-9822-44F18AC806E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7302C254-0039-4395-9822-44F18AC806E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91412FC9-FA8E-47A6-A6C1-96769A02DC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91412FC9-FA8E-47A6-A6C1-96769A02DC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91412FC9-FA8E-47A6-A6C1-96769A02DC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91412FC9-FA8E-47A6-A6C1-96769A02DC30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF2D3718-6A1F-467A-A280-BBED19275EC9}
+	EndGlobalSection
+EndGlobal
